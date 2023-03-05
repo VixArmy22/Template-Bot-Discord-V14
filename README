@@ -1,0 +1,10 @@
+Etape 1 : Ouvrir le terminal et tapez la commande : npm i
+Etape 2 : Se rendre dans le fichier ".env" et mettre votre token
+Etape 3 : Si vous souhaitez être que en slash commands et non en prefix commands, supprimez le fichier config.json et MessageCreate 
+          Et à l'inverse, si vous souhaitez être uniquement en prefix commands, indiquez votre prefix dans le fichier "config.json" et
+          supprimez le fichier "InteractionCreate" ainsi que les lignes dans le fichier "ClientReady" (ne pas tout supprimer, lire le contenu)
+Etape 4 : Se rendre dans le fichier "command.js" et choisissez l'handler de votre choix.
+Etape 5 : Se rendre dans le fichier "event.js" et choissisez l'handler de votre choix.
+Etape 6 : Si vous avez suivis tout correctement, vous devriez pourvoir lancer votre bot !
+
+En cas de soucis, vous pouvez me mp sur discord : VIX_ARMY#1057 ou de crée un post dans le salon discordjs dans ce serveur : https://discord.gg/dev-community
